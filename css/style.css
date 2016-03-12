@@ -7,18 +7,45 @@ h1{
 h2{
 	font-family: 'Playfair Display', serif;
 	font-weight:700;
+	font-size:2.5em;
+	color:#4D388B;
+	padding:.03em;
+	margin:0;
 }
 
 h3{
 	font-family: 'Playfair Display', serif;
+	font-weight:900;
+	font-size:2.5em;
+	text-align: center;
+	color:#44327B;
+	border:1em;
+	margin:1em;
+	padding:0;
+	transition: opacity 0.4s ease;
 }
+
 
 h4{
 	font-family: 'Open Sans', sans-serif;
+	font-weight:400;
+	font-size:1.3em;
+	text-align: center;
+	color:black;
+	transition: opacity 0.4s ease;
+}
+
+h5{
+	font-family: 'Open Sans', sans-serif;
+	font-weight:400;
+	font-size:1em;
+	text-align: center;
+	color:black;
 }
 
 li{
 	font-family: 'Open Sans', sans-serif;
+	font-weight:400;
 }
 
 p{
@@ -28,10 +55,23 @@ p{
 body{
 	margin:0;
 	padding:0;
+	width:100%;
 }
 
 section{
 	height:41rem;
+}
+
+a{
+	font-family: 'Open Sans', sans-serif;
+	color:white;
+	text-decoration: none;
+	font-weight:400;
+}
+
+a:hover{
+	color:#FAE804;
+	text-decoration:none;
 }
 
 .masthead{
@@ -43,6 +83,7 @@ section{
     background-size: cover;
   	height: 41rem;
   	margin-top:0;
+  	margin-right:-2em;
   }
 
  .masthead h1{
@@ -68,9 +109,13 @@ section{
  }
 
  .about-me{
- 	background-image: url("http://s12.postimg.org/diuq6mqrh/About_Me.png");
+ 	clear:both;
+ 	background-image:url("http://s12.postimg.org/diuq6mqrh/About_Me.png");
  	background-repeat: no-repeat;
  	background-position: right;
+ 	margin-right:-2em;
+ 	padding-bottom:0;
+ 	margin-bottom:0;
  }
 
  .about-me-copy{
@@ -78,10 +123,383 @@ section{
  	float:left;
  	padding:1em;
  	margin-right:60em;
+ 	margin-left:2em;
  }
 
  .my-work{
+ 	clear:both;
  	background-image: url("https://i.imgsafe.org/986ec23.png");
  	background-repeat: no-repeat;
  	background-position: left;
+ 	padding-top:0;
+ 	margin-top:0;
+ 	margin-bottom:0;
+ 	padding-bottom:0;
  }
+
+
+
+ .top-row{
+ 	margin-left:10em;
+ 	margin-right:0;
+ 	padding-right:0;
+ 	width:90%;
+ 	float:left;
+ 	height:20em;
+ }
+
+ .top-left{
+ 	transition: background-image 0.4s ease;
+ 	background-image: url("file:///Users/Tatiana/Documents/Portfolio-Website/March-2016/css/images/About-me-site-30.png");
+ 	background-repeat:no-repeat;
+ 	background-size:cover;
+ 	background-color:white;
+ 	background-o
+ 	display:inline-block;
+ 	float:left;
+ 	padding:0;
+ 	margin:0;
+ 	width:33%;
+ 	height:20em;
+ }
+
+ .top-left h3{
+ 	padding-bottom:0;
+ 	margin-bottom:0;
+ }
+
+ .top-left h4{
+ 	padding-top:0;
+ 	margin-top:0;
+ 	margin-bottom:6em;
+ }
+.top-left h5{
+	padding:0;
+	margin:0;
+}
+
+ .top-left:hover{
+ 	background-image: url("file:///Users/Tatiana/Documents/Portfolio-Website/March-2016/css/images/About%20me%20site.png");
+ 	opacity:1;
+ }
+
+ .top-left:hover h3{
+ 	color:white;
+ 	opacity:0;
+ }
+
+  .top-left:hover h4{
+ 	color:white;
+ 	opacity:0;
+ }
+
+  .top-left:hover h5{
+ 	color:#DF90A8;
+ 	opacity:0;
+ }
+
+ .top-middle{
+ 	transition: background-image 0.4s ease;
+ 	background-image: url("file:///Users/Tatiana/Documents/Portfolio-Website/March-2016/css/images/Karma-30.png");
+ 	background-repeat:no-repeat;
+ 	background-size:cover;
+ 	background-color:white;
+ 	float:left;
+ 	display:inline-block;
+ 	padding:0;
+ 	margin:0;
+ 	width:33%;
+ 	height:20em;
+ }
+
+  .top-middle:hover{
+  	background-image: url("file:///Users/Tatiana/Documents/Portfolio-Website/March-2016/css/images/Karmae.png");
+ 	opacity:1;
+ }
+
+  .top-middle h3{
+ 	padding-bottom:0;
+ 	margin-bottom:0;
+ }
+
+ .top-middle h4{
+ 	padding-top:0;
+ 	margin-top:0;
+ 	margin-bottom:7em;
+ }
+.top-middle h5{
+	padding:0;
+	margin:0;
+}
+
+ .top-middle:hover h3{
+ 	color:white;
+ 	opacity:0;
+ }
+
+  .top-middle:hover h4{
+ 	color:white;
+ 	opacity:0;
+ }
+
+  .top-middle:hover h5{
+ 	color:#DF90A8;
+ 	opacity:0;
+ }
+
+
+ .top-right{
+ 	transition: background-image 0.4s ease;
+ 	background-image: url("file:///Users/Tatiana/Documents/Portfolio-Website/March-2016/css/images/hmh-30.png");
+ 	background-repeat:no-repeat;
+ 	background-position:top;
+ 	background-size:cover;
+ 	float:left;
+ 	display:inline-block;
+ 	padding:0;
+ 	margin:0;
+ 	width:33%;
+ 	height:20em;
+ }
+
+ .top-right:hover{
+ 	background-image: url("file:///Users/Tatiana/Documents/Portfolio-Website/March-2016/css/images/HMH.png");
+ 	opacity:1;
+ }
+
+  .top-right h3{
+ 	padding-bottom:.2em;
+ 	margin-bottom:0;
+ 	padding-top:0;
+ 	margin-top: .3em;
+    line-height: 1.2;
+ }
+
+ .top-right h4{
+ 	padding-top:0;
+ 	margin-top:0;
+ 	margin-bottom:3em;
+ }
+.top-right h5{
+	padding:0;
+	margin:0;
+}
+
+ .top-right:hover h3{
+ 	color:white;
+ 	opacity:0;
+ }
+
+  .top-right:hover h4{
+ 	color:white;
+ 	opacity:0;
+ }
+
+  .top-right:hover h5{
+ 	color:#DF90A8;
+ 	opacity:0;
+ }
+
+
+ .bottom-row{
+ 	clear:both;
+  	margin-left:10em;
+ 	margin-right:0;
+ 	padding-right:0;
+ 	width:90%;
+ 	float:left;
+ 	height:20em;
+ }
+
+ .bottom-left{
+ 	transition: background-image 0.4s ease;
+ 	background-image: url("file:///Users/Tatiana/Documents/Portfolio-Website/March-2016/css/images/turner-30.png");
+ 	background-repeat:no-repeat;
+ 	background-size:cover;
+ 	float:left;
+ 	display:inline-block;
+ 	padding:0;
+ 	margin:0;
+ 	width:33%;
+ 	height:20em;
+ }
+
+ .bottom-left:hover{
+ 	background-image: url("file:///Users/Tatiana/Documents/Portfolio-Website/March-2016/css/images/turner.png");
+ 	opacity:1;
+ }
+
+   .bottom-left h3{
+ 	padding-bottom:0;
+ 	margin-bottom:0;
+ }
+
+ .bottom-left h4{
+ 	padding-top:0;
+ 	margin-top:0;
+ 	margin-bottom:6em;
+ }
+.bottom-left h5{
+	padding:0;
+	margin:0;
+}
+
+ .bottom-left:hover h3{
+ 	color:white;
+ 	opacity:0;
+ }
+
+  .bottom-left:hover h4{
+ 	color:white;
+ 	opacity:0;
+ }
+
+  .bottom-left:hover h5{
+ 	color:#DF90A8;
+ 	opacity:0;
+ }
+
+.bottom-middle{
+	transition: background-image 0.4s ease;
+	background-image: url("file:///Users/Tatiana/Documents/Portfolio-Website/March-2016/css/images/cnn-30.png");
+	background-repeat:no-repeat;
+ 	background-size:cover;
+ 	float:left;
+ 	display:inline-block;
+ 	padding:0;
+ 	margin:0;
+ 	width:33%;
+ 	height:20em;
+}
+
+.bottom-middle:hover{
+	background-image: url("file:///Users/Tatiana/Documents/Portfolio-Website/March-2016/css/images/CNN.png");
+	opacity:1;
+}
+
+   .bottom-middle h3{
+ 	padding-bottom:0;
+ 	margin-bottom:0;
+ }
+
+ .bottom-middle h4{
+ 	padding-top:0;
+ 	margin-top:0;
+ 	margin-bottom:6em;
+ }
+.bottom-middle h5{
+	padding:0;
+	margin:0;
+}
+
+ .bottom-middle:hover h3{
+ 	color:white;
+ 	opacity:0;
+ }
+
+  .bottom-middle:hover h4{
+ 	color:white;
+ 	opacity:0;
+ }
+
+  .bottom-middle:hover h5{
+ 	color:#DF90A8;
+ 	opacity:0;
+ }
+
+.bottom-right{
+	transition: background-image 0.4s ease;
+	background-image: url("file:///Users/Tatiana/Documents/Portfolio-Website/March-2016/css/images/ga-30.png");
+	background-repeat:no-repeat;
+ 	background-size:cover;
+ 	float:left;
+ 	display:inline-block;
+ 	padding:0;
+ 	margin:0;
+ 	width:33%;
+ 	height:20em;
+}
+
+.bottom-right:hover{
+	background-image: url("file:///Users/Tatiana/Documents/Portfolio-Website/March-2016/css/images/GA%20Porftolio.png");
+	opacity:1;
+}
+
+   .bottom-right h3{
+ 	padding-bottom:.2em;
+ 	margin-bottom:0;
+ 	margin-top: .6em;
+    line-height: 1;
+ }
+
+ .bottom-right h4{
+ 	padding-top:0;
+ 	margin-top:0;
+ 	margin-bottom:5em;
+ }
+.bottom-right h5{
+	padding:0;
+	margin:0;
+}
+
+ .bottom-right:hover h3{
+ 	color:white;
+ 	opacity:0;
+ }
+
+  .bottom-right:hover h4{
+ 	color:white;
+ 	opacity:0;
+ }
+
+  .bottom-right:hover h5{
+ 	color:#DF90A8;
+ 	opacity:0;
+ }
+
+footer{
+	height:10em;
+	background-color:black;
+	margin-right:-2em;
+	margin-top:0;
+	margin-bottom:0;
+	margin-left:0;
+	padding:0;
+}
+
+.footer-content{
+	margin-left: 25em;
+    margin-right: 25em;
+}
+
+
+footer h3{
+	text-align:right;
+	max-width:70em;
+	float:left;
+	color:white;
+	font-size:2.5em;
+	margin-top:.7em;
+	line-height:1;
+	margin-right: .2em;
+}
+
+footer img{
+	height:5em;
+	float:left;
+	margin-top:2em;
+	z-index:100;
+}
+
+footer ul{
+	padding-top:2em;
+	padding-left:2em;
+	
+}
+
+footer ul li{
+	text-align:left;
+	margin-left:15.3em;
+	padding:.15em;
+
+}
