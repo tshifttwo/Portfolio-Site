@@ -56,6 +56,7 @@ h5{
 li{
 	font-family: 'Open Sans', sans-serif;
 	font-weight:400;
+	text-decoration:none;
 }
 
 @media only screen and (max-width: 500px) {
@@ -226,7 +227,7 @@ a:hover{
 
  .top-left{
  	transition: background-image 0.4s ease;
- 	background-image: url("file:///Users/Tatiana/Documents/Portfolio-Website/March-2016/css/images/About-me-site-30.png");
+ 	background-image: url("https://www.dropbox.com/s/hpyadvwhy8r5ihg/About-me-site-30.png?raw=1");
  	background-repeat:no-repeat;
  	background-size:cover;
  	background-color:white;
@@ -236,7 +237,7 @@ a:hover{
  	padding:0;
  	margin:0;
  	width:33%;
- 	height:20em;
+ 	height:21em;
  }
 
  .top-left h3{
@@ -255,7 +256,7 @@ a:hover{
 }
 
  .top-left:hover{
- 	background-image: url("file:///Users/Tatiana/Documents/Portfolio-Website/March-2016/css/images/About%20me%20site.png");
+ 	background-image: url("https://www.dropbox.com/s/np7acj6isxgnkrb/About%20me%20site.png?raw=1");
  	opacity:1;
  }
 
@@ -276,7 +277,7 @@ a:hover{
 
  .top-middle{
  	transition: background-image 0.4s ease;
- 	background-image: url("file:///Users/Tatiana/Documents/Portfolio-Website/March-2016/css/images/Karma-30.png");
+ 	background-image: url("https://www.dropbox.com/s/k57c60p8455uh05/Karma-30.png?raw=1");
  	background-repeat:no-repeat;
  	background-size:cover;
  	background-color:white;
@@ -285,11 +286,11 @@ a:hover{
  	padding:0;
  	margin:0;
  	width:33%;
- 	height:20em;
+ 	height:21em;
  }
 
   .top-middle:hover{
-  	background-image: url("file:///Users/Tatiana/Documents/Portfolio-Website/March-2016/css/images/Karmae.png");
+  	background-image: url("https://www.dropbox.com/s/ss9piwwbb71tp0o/Karmae.png?raw=1");
  	opacity:1;
  }
 
@@ -326,7 +327,7 @@ a:hover{
 
  .top-right{
  	transition: background-image 0.4s ease;
- 	background-image: url("file:///Users/Tatiana/Documents/Portfolio-Website/March-2016/css/images/hmh-30.png");
+ 	background-image: url("https://www.dropbox.com/s/k086a0xz8jz0e1m/hmh-30.png?raw=1");
  	background-repeat:no-repeat;
  	background-position:top;
  	background-size:cover;
@@ -335,11 +336,11 @@ a:hover{
  	padding:0;
  	margin:0;
  	width:33%;
- 	height:20em;
+ 	height:21em;
  }
 
  .top-right:hover{
- 	background-image: url("file:///Users/Tatiana/Documents/Portfolio-Website/March-2016/css/images/HMH.png");
+ 	background-image: url("https://www.dropbox.com/s/94532jwkshygcij/HMH.png?raw=1");
  	opacity:1;
  }
 
@@ -389,7 +390,7 @@ a:hover{
 
  .bottom-left{
  	transition: background-image 0.4s ease;
- 	background-image: url("file:///Users/Tatiana/Documents/Portfolio-Website/March-2016/css/images/turner-30.png");
+ 	background-image: url("https://www.dropbox.com/s/af6sbh7h802ag00/turner-30.png?raw=1");
  	background-repeat:no-repeat;
  	background-size:cover;
  	float:left;
@@ -397,11 +398,11 @@ a:hover{
  	padding:0;
  	margin:0;
  	width:33%;
- 	height:20em;
+ 	height:21em;
  }
 
  .bottom-left:hover{
- 	background-image: url("file:///Users/Tatiana/Documents/Portfolio-Website/March-2016/css/images/turner.png");
+ 	background-image: url("https://www.dropbox.com/s/0lmtbarb8hdkdvv/turner.png?raw=1");
  	opacity:1;
  }
 
@@ -437,7 +438,7 @@ a:hover{
 
 .bottom-middle{
 	transition: background-image 0.4s ease;
-	background-image: url("file:///Users/Tatiana/Documents/Portfolio-Website/March-2016/css/images/cnn-30.png");
+	background-image: url("https://www.dropbox.com/s/27mzkitom9nj1kq/cnn-30.png?raw=1");
 	background-repeat:no-repeat;
  	background-size:cover;
  	float:left;
@@ -445,11 +446,11 @@ a:hover{
  	padding:0;
  	margin:0;
  	width:33%;
- 	height:20em;
+ 	height:21em;
 }
 
 .bottom-middle:hover{
-	background-image: url("file:///Users/Tatiana/Documents/Portfolio-Website/March-2016/css/images/CNN.png");
+	background-image: url("https://www.dropbox.com/s/x0b4i5oqne6rhul/CNN.png?raw=1");
 	opacity:1;
 }
 
@@ -485,7 +486,7 @@ a:hover{
 
 .bottom-right{
 	transition: background-image 0.4s ease;
-	background-image: url("file:///Users/Tatiana/Documents/Portfolio-Website/March-2016/css/images/ga-30.png");
+	background-image: url("https://www.dropbox.com/s/he9krq94mn45k1a/ga-30.png?raw=1");
 	background-repeat:no-repeat;
  	background-size:cover;
  	float:left;
@@ -493,11 +494,11 @@ a:hover{
  	padding:0;
  	margin:0;
  	width:33%;
- 	height:20em;
+ 	height:21em;
 }
 
 .bottom-right:hover{
-	background-image: url("file:///Users/Tatiana/Documents/Portfolio-Website/March-2016/css/images/GA%20Porftolio.png");
+	background-image: url("https://www.dropbox.com/s/dc210tfsq76txvu/GA%20Porftolio.png?raw=1");
 	opacity:1;
 }
 
@@ -534,18 +535,23 @@ a:hover{
  }
 
 footer{
+
 	height:10em;
 	background-color:black;
 	margin-right:-2em;
 	margin-top:0;
 	margin-bottom:0;
-	margin-left:0;
+	margin-left:-2em;
 	padding:0;
 }
 
 .footer-content{
-	margin-left: 25em;
-    margin-right: 25em;
+	position:absolute;
+	display:inline-block;
+	margin: auto 0;
+	float:center;
+	padding-left: 30em;
+	padding-right:20em;
 }
 
 
@@ -557,7 +563,7 @@ footer h3{
 	font-size:2.5em;
 	margin-top:.7em;
 	line-height:1;
-	margin-right: .2em;
+	margin-right: 1em;
 }
 
 footer img{
@@ -565,17 +571,17 @@ footer img{
 	float:left;
 	margin-top:2em;
 	z-index:100;
+	padding-left:1em;
 }
 
 footer ul{
-	padding-top:2em;
-	padding-left:2em;
-	
+	padding-top:1em;
+	float:left;
+	display:inline-block;
 }
 
 footer ul li{
 	text-align:left;
-	margin-left:15.3em;
 	padding:.15em;
-
+	list-style-type: none;
 }
